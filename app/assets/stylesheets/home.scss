@@ -1,0 +1,202 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#first  {
+height:800px;
+background-image: url(/a1.png);
+ 
+}
+
+#second {
+height:800px;
+background-image: url(/ask.jpg);
+ }
+ #third {
+height:800px;
+background-image: url(/Promise.jpg);
+ }
+.faq-list-item {
+  margin:20px 20px 40px;
+  border-bottom:1px solid #ccc;
+  position:relative;
+  cursor:pointer;
+  text-align: left;
+}
+
+.faq-list-item h3 {
+  font-size: 20px;
+}
+
+.faq-list-item span {
+  position:absolute;
+  top:0;
+  right:5px;
+  color:#ccc;
+  font-size:20px;
+}
+
+.q_contact{
+  padding:10px;
+  text-align:center;
+  background-color:#668ad8;
+  color:white;
+  margin:0 auto 20px;
+  width:30%;
+  border-radius: 3px;
+  border-bottom: solid 4px #627295
+}
+.q_contact:active {
+  transform: translateY(4px);
+  border-bottom:none;
+}
+
+
+.answer {
+  font-size: 15px;
+  padding: 5px 0px;
+  margin: 12px 0px;
+  text-align: center;
+  display:none;
+}
+
+.title_work-p{
+ background-color:#6927FF;
+ color:white;
+}
+.title_work h1{
+  padding:10px;
+  text-align: center;
+}
+.work-f{
+  margin:50px 0 40px;
+  text-align: center;
+}
+.works{
+  display:inline-block;
+}
+
+.work{
+  margin:30px;
+  background-color:black;
+  padding:10px;
+  color:white;
+}
+
+
+.close-modal{
+  margin-right:50px;
+  text-align: right;
+}
+.pro-back{
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+  display:none;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pro{
+  border:1px solid #d1d1d1;
+  width:50%;
+  margin:50px auto;
+  padding:10px 10px 40px;
+  background-color: #EEEEEE;
+}
+.pro h1{
+  text-align: center;
+  margin-bottom:20px;
+}
+
+.pro-content{
+   padding:20px;
+}
+
+.pro-content h3{
+  margin-bottom: 30px;
+  text-align: center;
+}
+.pro-content p{
+  text-align:center;
+}
+.Akyuto {
+  width: 50%;
+ margin: 50px auto;
+ padding: 50px;
+}
+.Akyuto:hover{
+  background-color:#EEEEEE;
+}
+.Akyuto p{
+  font-size:30px;
+  text-align: center;
+}
+ .Gurrinco {
+  width: 50%;
+ margin: 50px auto;
+ padding:50px;
+ }
+ .Gurrinco:hover{
+  background-color:#EEEEEE	;
+}
+.Gurrinco p{
+  font-size:30px;
+  text-align: center;
+  margin-bottom:20px;
+}
+
+.policy h1{
+  font-size:80px;
+  text-align: center;
+  margin: 80px 90px;
+}
+
+
+.messeage h1{
+  font-size:60px;
+  margin-bottom: 50px;
+}
+.messeage p{ 
+  margin:15px 0;
+  letter-spacing: 0.5em
+  }
+.messeage{
+  margin:30px 50px 80px;
+}
+.messeage h1{
+  font-size:60px;
+  margin-bottom: 100px;
+}
+
+.messeage p{ 
+  transition: .8s;
+  transition-delay: .8s;
+  margin:15px 0 25px;
+  letter-spacing: 0.5em
+}
+.jp{
+  display: none;
+  margin-bottom: 50px;
+}
+.eg{
+  display:none;
+  margin-bottom: 80px;
+}
+
+
+.first h1 span{
+  color:red;
+}
+.second h1 span{
+  color:blue;
+}
+.third h1 span{
+  color:green;
+}
